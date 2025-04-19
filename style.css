@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 5;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(22, 32, 17, 0.2);
+    color: #ffffff;
+    background-image: url(Mr.jpg);
+}
+
+.container {
+    max-width: 900px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(160, 55, 55, 0.2);
+}
+
+header {
+    background: #619478;
+    color: rgb(37, 59, 68);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    border-left: 5px solid #244221a1;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(22, 32, 17, 0.2);
+    writing-mode: sideways;
+    border: solid;
+    background: solid;
+    background-repeat: solid;
+    background-repeat: solid;
+    border-style: solid;
+    writing-mode: inherit;
+}
+
+h2 {
+    color: #91c9c0;
+    margin-bottom: 15px;
+    font-size: 22px;
+    display: ruby-base;
+}
+
+ul {
+    padding-left: 20px;
+    list-style: solid;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 16px;
+    position: relative;
+    width: solid;
+}
+
+ul li::before {
+    color: #292323;
+    font-weight: bold;
+    margin-right: 10px;
+    writing-mode: solid;
+}
+
+.langue-container {
+    width: 80%;
+    background-color: #c55f5f;
+    border-radius: 0%;
+    height: 15px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 0.3s ease;
+}
